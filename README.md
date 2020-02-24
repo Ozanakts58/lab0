@@ -11,55 +11,32 @@ Gördüğünüz gibi bu ödev için :
 
 ![](guideline_SS/schoology1.png)
  
-![](guideline_SS/fork0.png)
+![](guideline_SS/github1.png)
  
-2. Çevrimiçi repoya gidin ve `Fork` butonuna tıklayın.
+2. **“Clone or download”** butonuna tıklayın ve ödev için gerekli dosyaları .zip halinde indirin.
+3. Github Desktop yardımı ile ya da komutlar ile yeni bir gizli repo oluşturun. Github Desktop uygulaması ile ilgili ekran görüntüleri aşağıdadır.  
+(NOT : Bu işlemi yapabilmek için bilgisayarınızda Git yüklü olmalıdır. Github Desktop ya da Source Tree gibi yardımcı araçları da kullanabilirsiniz. )
 
-Fork ile ilgili kaynaklar :
+![](guideline_SS/1-new-repository.png)
 
-[Github Help | Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+![](guideline_SS/2-.png)
 
-[Medium | Github ile Fork ve Pull Request](https://medium.com/@noteCe/github-ile-fork-ve-pull-request-be6077342834)
 
-![](guideline_SS/fork0.png)
+4. Reponuzu kendi hesabınızla yayınlayınız.
 
-3. Fork ettikten sonra, projenin bir kopyasıyla Github hesabınıza yönlendirileceksiniz.
+![](guideline_SS/3-.png)
 
-![](guideline_SS/fork1.png)
 
-4. Repoda olduğunuzdan emin olduktan sonra `Clone or download` butonuna tıklayın ve repo'nuzun URL'sini kopyalayın.
+5. Projeyi publish ederken `private (gizli)` olmasına dikkat ediniz.
 
-5. Terminali açın ve ödevlerinizi ve/veya laboratuvar notlarınızı almak istediğiniz dizine geçin. Bu dizine geçtikten sonra reponuzu aşağıdaki komutla klonlayın.
+![](guideline_SS/4-.png)
 
-`git clone <the url you copied>`
-
-(**NOT** : Bu işlemi yapabilmek için bilgisayarınızda [Git](https://git-scm.com/downloads) yüklü olmalıdır. [Github Desktop](https://desktop.github.com/) ya da [Source Tree](https://www.sourcetreeapp.com/) gibi yardımcı araçları da kullanabilirsiniz. )
-
-[Github Help | Cloning a repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-
-[Medium | GitHub ile açık kaynak projelere katkıda bulunmak](https://medium.com/@cengizhanc/github-ile-a%C3%A7%C4%B1k-kaynak-projelere-katk%C4%B1da-bulunmak-8a0d79090546)
-
-[Youtube | Sıfırdan Git Dersleri - 11 - GitHub - GitLab - BitBucket Kullanımı](https://www.youtube.com/watch?v=owimnkQ5Ebk)
-
-**Github Desktop uygulaması ile projenizi klone etmek isterseniz:**
-
-Uygulamaya hesabınızla giriş yapın. 
-
-![](guideline_SS/clone.png)
-
-![](guideline_SS/clone2.png)
-
-![](guideline_SS/clone3.png)
-
-![](guideline_SS/clone4.png)
-
-6. Yukarıdaki komut ya da işlemler ile bilgisayarınızda bir klasör oluşacak. Kodlama yapmak için kullandığınız editör yardımıyla sizden istenen ödevi gerçekleştiriniz ve Github&#39;a değişikliklerinizi gönderiniz.(`Push`)
+6. Eğer private yapmayı unutursanız github.com'dan reponun `Settings --> Danger Zone` kısmında yer alan yerden de yapabilirsiniz.
+7. Kodlama yapmak için kullandığınız editör yardımıyla sizden istenen ödevi gerçekleştiriniz ve Github’a değişikliklerinizi gönderiniz.(`Push`)
 
  ![](guideline_SS/push1.png)
 
-7. Ödevinizin tamamlanmış halinin ekran görüntülerini `video`sunu, `gif`ini repoda yer alan outputs dosyasına ekleyiniz.
-
- ![](guideline_SS/video1.png)
+8. Ödevinizin tamamlanmış halinin `ekran görüntülerini`, `video`sunu, `gif`ini repoda yer alan outputs dosyasına ekleyiniz.
 
 
 Tam sayfa ekran görüntüsü için kullanabileceğiz Chrome eklentisi :  [Chrome Web Mağazası | Easy Screen Capture - save &amp; send screenshots](https://chrome.google.com/webstore/detail/easy-screen-capture-save/ejkbkgbliokmbblkklofdehalgbplkfg)
@@ -70,7 +47,7 @@ Bu aracı kullanacaksanız **Uygulama Penceresi** modunda çalıştırın. Chrom
 
 Farklı araçları da kullanabilirsiniz.
 
-8. Ödevinizi tamamladığınızdan emin olduğunuzda, gönderim tarihine kadar, `Schoology’de`  yer alan  `Submission` kısmından ödevinizi  `zip` olarak sisteme yükleyiniz.
+9. Ödevinizi tamamladığınızdan emin olduğunuzda, gönderim tarihine kadar, `Schoology’de`  yer alan  `Submission` kısmından ödevinizi  `zip` olarak sisteme yükleyiniz.
 
 `labNo_ogrenciNo_soyad_ad.zip`
 
@@ -85,8 +62,14 @@ Video Linki : https://drive.google.com/open?id=1OvqoQzRmIm1BC1B_tuVDfqwGRDh09JIs
 
 ![](guideline_SS/schoology2.png)
 
-9. Ayrıca videonuzu `gif`e çevirip `README.md` dosyasına aşağıdaki gibi eklemeniz yararınıza olacaktır.
+10. Ayrıca videonuzu `gif`e çevirip `README.md` dosyasına aşağıdaki gibi eklemeniz yararınıza olacaktır.
 
 `![Lab 0 - Gif](outputs/lab0.gif)`
 
 `Gif`e çevirme aracı : [https://convertio.co/tr/mp4-gif/](https://convertio.co/tr/mp4-gif/)  (örnektir, istediğinizi kullanabilirsiniz)
+
+11. Ödev gönderim tarihinden **1 gün sonra**  Settings – Danger Zone alanından `Make Public` diyerek herkese görünür yapınız. Verilen github linki değişmeyecektir.
+
+![](guideline_SS/5-dangerzone-public.png)
+
+12. **Ödevinizin başkası tarafından kopyalanmaması sizin sorumluluğunuzdadır.** Birbirinin kopyası olan ödevler 0 olarak notlandırılacaktır.
